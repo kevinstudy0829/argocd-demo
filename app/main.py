@@ -7,5 +7,5 @@ app = FastAPI()
 def home():
     return {
         "version": os.getenv("APP_VERSION", "v4.0"),
-        "status": "ok123",
+        "status": "123456",
     }
